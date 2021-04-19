@@ -43,7 +43,7 @@ GameManager.prototype.addStartTiles = function () {
 // Adds a tile in a random position
 GameManager.prototype.addRandomTile = function () {
   if (this.grid.cellsAvailable()) {
-	if(Math.random() < 0.04){
+	if(Math.random() < 0.01){
 		var value = 3;
 		var rank = 3;
 	}
